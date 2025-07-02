@@ -10,7 +10,7 @@ app = Flask(__name__)
 app.secret_key = os.urandom(24)  # For session management
 
 # Set your Together AI API key here
-API_KEY = "32ab2d221266a7ced2f57caebac6d0638cfe9bef0283944dcc6d3c62d72d5bf1"
+API_KEY = "Put your own API key"
 
 # Supported languages
 LANGUAGES = {
